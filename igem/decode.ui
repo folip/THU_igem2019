@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>DecodeWidget</class>
+ <widget class="QWidget" name="DecodeWidget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1265</width>
+    <height>727</height>
+   </rect>
+  </property>
+  <property name="acceptDrops">
+   <bool>true</bool>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(34, 33, 33);</string>
+  </property>
+  <widget class="QLabel" name="label_preview">
+   <property name="geometry">
+    <rect>
+     <x>340</x>
+     <y>100</y>
+     <width>571</width>
+     <height>391</height>
+    </rect>
+   </property>
+   <property name="acceptDrops">
+    <bool>true</bool>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 75 20pt &quot;Segoe UI&quot;;
+color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string>Drag File Here</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_start">
+   <property name="geometry">
+    <rect>
+     <x>330</x>
+     <y>560</y>
+     <width>611</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="acceptDrops">
+    <bool>true</bool>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton#pushButton_start{
+border: 0px;
+background-color: rgb(240, 20, 20);
+font: 500 20pt &quot;Segoe UI&quot;;
+color: white;}
+QPushButton#pushButton_start:pressed{
+border: 0px;
+background-color: qradialgradient(spread:pad, cx:0.5, cy:0.5, radius:0.5, fx:0.5, fy:0.5, stop:0.24 rgba(240, 20, 20, 180), stop:0.52 rgba(240, 20, 20, 210), stop:1 rgba(240, 20, 20, 240));
+font: 500 20pt &quot;Segoe UI&quot;;
+color: white;}</string>
+   </property>
+   <property name="text">
+    <string>start decoding</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_file_name">
+   <property name="geometry">
+    <rect>
+     <x>360</x>
+     <y>500</y>
+     <width>526</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="acceptDrops">
+    <bool>true</bool>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 400 14pt &quot;Segoe UI&quot;;
+color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_file_alarm">
+   <property name="geometry">
+    <rect>
+     <x>462</x>
+     <y>320</y>
+     <width>340</width>
+     <height>60</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-radius:8px;
+border: 3px solid rgb(230, 60, 60);
+background-color: rgb(180, 30, 30);
+font: 400 18pt &quot;Segoe UI&quot;;
+color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string>Please Import Your File</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_loading_icon">
+   <property name="geometry">
+    <rect>
+     <x>700</x>
+     <y>340</y>
+     <width>56</width>
+     <height>56</height>
+    </rect>
+   </property>
+   <property name="acceptDrops">
+    <bool>true</bool>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border: 0px;
+background-color: rgb(50, 49, 49);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_loading_background">
+   <property name="geometry">
+    <rect>
+     <x>325</x>
+     <y>320</y>
+     <width>601</width>
+     <height>91</height>
+    </rect>
+   </property>
+   <property name="acceptDrops">
+    <bool>true</bool>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(50, 49, 49);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_loading_text">
+   <property name="geometry">
+    <rect>
+     <x>415</x>
+     <y>340</y>
+     <width>171</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="acceptDrops">
+    <bool>true</bool>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 500 20pt &quot;Segoe UI&quot;;
+color: white;
+background-color: rgb(50, 49, 49);</string>
+   </property>
+   <property name="text">
+    <string>Encoding...</string>
+   </property>
+  </widget>
+  <zorder>label_preview</zorder>
+  <zorder>pushButton_start</zorder>
+  <zorder>label_file_name</zorder>
+  <zorder>label_file_alarm</zorder>
+  <zorder>label_loading_background</zorder>
+  <zorder>pushButton_loading_icon</zorder>
+  <zorder>label_loading_text</zorder>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>HomeWidget</class>
+ <widget class="QWidget" name="HomeWidget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1265</width>
+    <height>727</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(34, 33, 33);</string>
+  </property>
+  <widget class="QPushButton" name="button_encode">
+   <property name="geometry">
+    <rect>
+     <x>150</x>
+     <y>91</y>
+     <width>427</width>
+     <height>546</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton#button_encode{
+border: 0px;
+}
+QPushButton#button_encode:hover{
+border: 2px solid rgb(0, 89, 136);
+}
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="button_decode">
+   <property name="geometry">
+    <rect>
+     <x>690</x>
+     <y>91</y>
+     <width>427</width>
+     <height>546</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton#button_decode{
+border: 0px;
+}
+QPushButton#button_decode:hover{
+border: 2px solid rgb(0, 89, 136);
+}
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
