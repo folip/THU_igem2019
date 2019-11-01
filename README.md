@@ -1,5 +1,8 @@
 # THU_igem2019
 
+source code can be found in igem/Backend
+** adding notebook for testing **
+
 Tsinghua-A 2019
 
 Main page 
