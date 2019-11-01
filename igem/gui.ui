@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>UI_Main</class>
+ <widget class="QMainWindow" name="UI_Main">
+  <property name="windowModality">
+   <enum>Qt::NonModal</enum>
+  </property>
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1376</width>
+    <height>778</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgba(0, 0, 0, 0);</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPushButton" name="button_home">
+    <property name="geometry">
+     <rect>
+      <x>5</x>
+      <y>135</y>
+      <width>91</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton#button_home{
+border:0px;
+background-color: rgb(13, 12, 12);
+color: rgb(255, 255, 255)}
+QPushButton#button_home:hover{
+border:0px;
+background-color: rgb(30, 29, 29);
+color: rgb(255, 255, 255)}
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QFrame" name="frame">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>46</y>
+      <width>1265</width>
+      <height>727</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(34, 33, 33);</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="button_close">
+    <property name="geometry">
+     <rect>
+      <x>1300</x>
+      <y>5</y>
+      <width>66</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton#button_close{
+border: 0px;
+font: 75 11pt &quot;Adobe Gothic Std B&quot;;
+background-color: rgb(34, 33, 33);
+color: rgb(255, 255, 255)}
+QPushButton#button_close:hover{
+border: 0px;
+font: 75 11pt &quot;Adobe Gothic Std B&quot;;
+background-color: rgb(255, 0, 0);
+color: rgb(255, 255, 255)}
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="button_page1">
+    <property name="geometry">
+     <rect>
+      <x>5</x>
+      <y>235</y>
+      <width>91</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton#button_page1{
+border:0px;
+background-color: rgb(50, 49, 49);
+color: rgb(255, 255, 255)}
+QPushButton#button_page1:hover{
+border:0px;
+background-color: rgb(30, 29, 29);
+color: rgb(255, 255, 255)}
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_paint">
+    <property name="geometry">
+     <rect>
+      <x>5</x>
+      <y>5</y>
+      <width>91</width>
+      <height>768</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(50, 49, 49);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_home">
+    <property name="geometry">
+     <rect>
+      <x>7</x>
+      <y>145</y>
+      <width>5</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(245, 92, 61);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_page1">
+    <property name="geometry">
+     <rect>
+      <x>7</x>
+      <y>245</y>
+      <width>5</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(245, 92, 61);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="button_mini">
+    <property name="geometry">
+     <rect>
+      <x>1234</x>
+      <y>5</y>
+      <width>66</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton#button_mini{
+border: 0px;
+font: 75 11pt &quot;Adobe Gothic Std B&quot;;
+background-color: rgb(34, 33, 33);
+color: rgb(255, 255, 255)}
+QPushButton#button_mini:hover{
+border: 0px;
+font: 75 11pt &quot;Adobe Gothic Std B&quot;;
+background-color: rgb(255, 0, 0);
+color: rgb(255, 255, 255)}
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_background">
+    <property name="geometry">
+     <rect>
+      <x>5</x>
+      <y>5</y>
+      <width>1366</width>
+      <height>768</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(34, 33, 33);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="button_page2">
+    <property name="geometry">
+     <rect>
+      <x>5</x>
+      <y>335</y>
+      <width>91</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton#button_page2{
+border:0px;
+background-color: rgb(50, 49, 49);
+color: rgb(255, 255, 255)}
+QPushButton#button_page2:hover{
+border:0px;
+background-color: rgb(30, 29, 29);
+color: rgb(255, 255, 255)}
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_page2">
+    <property name="geometry">
+     <rect>
+      <x>7</x>
+      <y>345</y>
+      <width>5</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(245, 92, 61);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <zorder>label_background</zorder>
+   <zorder>frame</zorder>
+   <zorder>button_close</zorder>
+   <zorder>label_paint</zorder>
+   <zorder>button_home</zorder>
+   <zorder>button_page1</zorder>
+   <zorder>label_home</zorder>
+   <zorder>label_page1</zorder>
+   <zorder>button_mini</zorder>
+   <zorder>button_page2</zorder>
+   <zorder>label_page2</zorder>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
